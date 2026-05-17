@@ -35,7 +35,7 @@ nav ul {
     display:flex;
     gap:20px;
     list-style:none;
-    
+    margin-left: auto;
 }
 nav ul a{
     font-family: Arial, Helvetica, sans-serif;
