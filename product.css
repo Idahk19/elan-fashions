@@ -16,18 +16,12 @@ header {
    
   
 }
-footer{
-    background-color: #111;
-    color: white;
-    text-align: center;
-    padding: 25px;
-    margin-top: 30px;
-}
+
 nav{
     display:flex;
     justify-content: space-between;
     align-items: center;
-    backdrop-filter: blur(10px);
+
 
 }
 
@@ -58,19 +52,37 @@ li{
 }
 .filters {
     padding: 20px;
-    text-align: center;
+    display: flex;
+    
 }
 
+.cart{
+    display: flex;
+}
+.shopping-cart {
+     margin-left: auto;
+    display: inline-block;
+    background: #000;
+    color: white;
+    padding: 2px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.shopping-cart p a{
+    text-decoration: none;
+   
+   color: #ffffff;
+}
 details {
     display: inline-block;
     background: #000;
     color: white;
-    padding: 10px 20px;
+    padding: 10px;
     border-radius: 10px;
     cursor: pointer;
 }
 
-details summary {
+details h2 {
     cursor: pointer;
     font-weight: bold;
 }
@@ -120,7 +132,7 @@ h2 {
 }
 
 .product-card:hover {
-    transform: translateY(-6px);
+    transform: translateY(6px);
 }
 
 
@@ -131,38 +143,29 @@ h2 {
 }
 
 
-.product-card h3 {
-    margin: 10px 0 5px;
-    font-size: 16px;
-}
 
 .price {
     font-weight: bold;
-    margin-bottom: 5px;
+   
 }
 
 .rating {
     color: gold;
-    margin-bottom: 10px;
+   
 }
 
 button {
     width: 100%;
     padding: 12px;
-    border: none;
     background: black;
     color: white;
     cursor: pointer;
-    transition: 0.3s;
+   
 }
 
 button:hover {
     background: #333;
 }
 
-
-.view {
-    margin-bottom: 40px;
-}
 
 

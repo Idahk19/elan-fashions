@@ -16,6 +16,7 @@ header {
   
 }
 footer{
+     
     background-color: #111;
     color: white;
     text-align: center;
@@ -26,7 +27,7 @@ nav{
     display:flex;
     justify-content: space-between;
     align-items: center;
-    backdrop-filter: blur(10px);
+   
 
 }
 
@@ -47,3 +48,23 @@ li{
     display:flex;
     gap:5px;
 }
+input[type="submit"] {
+  background-color: #000000;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+input {
+  color: white;
+  padding: 10px 100px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+textarea {
+  color: white;
+  padding: 10px 50px;
+  border-radius: 20px;
+  cursor: pointer;
+} 
