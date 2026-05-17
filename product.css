@@ -68,10 +68,9 @@ li{
     border-radius: 10px;
     cursor: pointer;
 }
-.shopping-cart p a{
+.shopping-cart a{
     text-decoration: none;
-   
-   color: #ffffff;
+    color: #ffffff;
 }
 details {
     display: inline-block;
@@ -167,5 +166,39 @@ button:hover {
     background: #333;
 }
 
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    display: none;
+}
 
+.modal:target {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background: white;
+    width: 320px;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.modal-content img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.close {
+    float: right;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
 

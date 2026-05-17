@@ -3,45 +3,43 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 <link rel="stylesheet" href="product.css">
+
 <title>Elan Fashion Products</title>
 </head>
 
 <body>
 
-   <header>
-        <nav>
-           <ul>
-                <li><i class="fa-solid fa-house"></i><a href="index.html">Home</a></li>
-                <li><i class="fa-brands fa-product-hunt"></i><a href="products.html">Products</a></li>
-                <li><i class="fa-solid fa-circle-info"></i><a href="about.html">About </a></li>
-                <li><i class="fa-solid fa-address-book"></i><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-       
+<header>
+    <nav>
+        <ul>
+            <li><i class="fa-solid fa-house"></i><a href="index.html">Home</a></li>
+            <li><i class="fa-brands fa-product-hunt"></i><a href="products.html">Products</a></li>
+            <li><i class="fa-solid fa-circle-info"></i><a href="about.html">About</a></li>
+            <li><i class="fa-solid fa-address-book"></i><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
 </header>
 
-
+<!-- FILTERS -->
 <section class="filters">
 
     <div class="sort">
         <details>
             <summary>Sort By</summary>
-
-            <a href="#all">All</a>
             <a href="#bags">Bags</a>
             <a href="#shoes">Shoes</a>
             <a href="#dresses">Dresses</a>
             <a href="#jeans">Jeans</a>
-
         </details>
     </div>
 
     <div class="shopping-cart">
-        <p><i class="fa-solid fa-cart-arrow-down"></i>  <a href="mycart.html">MyCart</a></div>
-        
-    </div> 
+        <i class="fa-solid fa-cart-arrow-down"></i>
+        <a href="mycart.html">My Cart</a>
+    </div>
 
 </section>
 
@@ -50,28 +48,39 @@
     <h2>Bags</h2>
 
     <div class="product-grid">
-        <div class="product-card bags">
-            <img src="assets/images/bags.jpg" alt="Bag">
-            <h3>Elan Handbag</h3>
-            <p class="price">Ksh 1500</p>
-            <p class="rating">★★★★★</p>
+
+        <div class="product-card">
+            <a href="#bag1">
+                <img src="assets/images/bags.jpg">
+                <h3>Elan Handbag</h3>
+            </a>
+                <p class="price">Ksh 1500</p>
+                <p class="rating">★★★★★</p>
+            
             <button>Add to Cart</button>
         </div>
-        <div class="product-card bags">
-            <img src="assets/images/backpack.jpg" alt="Bag">
-            <h3>Elan backpack</h3>
-            <p class="price">Ksh 3000</p>
-            <p class="rating">★★★★★</p>
+
+        <div class="product-card">
+            <a href="#bag2">
+                <img src="assets/images/backpack.jpg">
+                <h3>Elan Backpack</h3>
+            </a>
+                <p class="price">Ksh 3000</p>
+                <p class="rating">★★★★★</p>
+           
             <button>Add to Cart</button>
         </div>
-        <div class="product-card bags">
-            <img src="assets/images/totebag.jpg" alt="Bag">
-            <h3>Elan totebag</h3>
-            <p class="price">Ksh 1000</p>
-            <p class="rating">★★★★★</p>
+
+        <div class="product-card">
+            <a href="#bag3">
+                <img src="assets/images/totebag.jpg">
+                <h3>Elan Tote Bag</h3>
+                <p class="price">Ksh 1000</p>
+                <p class="rating">★★★★★</p>
+            </a>
             <button>Add to Cart</button>
         </div>
-       
+
     </div>
 </section>
 
@@ -80,28 +89,39 @@
     <h2>Shoes</h2>
 
     <div class="product-grid">
-        <div class="product-card shoes">
-            <img src="assets/images/sneakers.jpg" alt="Sneakers">
-            <h3>Sneakers</h3>
-            <p class="price">Ksh 3000</p>
-            <p class="rating">★★★★★</p>
+
+        <div class="product-card">
+            <a href="#shoe1">
+                <img src="assets/images/sneakers.jpg">
+                <h3>Sneakers</h3>
+            </a>
+                <p class="price">Ksh 3000</p>
+                <p class="rating">★★★★★</p>
+           
             <button>Add to Cart</button>
         </div>
 
-        <div class="product-card shoes">
-            <img src="assets/images/menshoes.jpg" alt="Mens Shoes">
-            <h3>Mens Shoes</h3>
-            <p class="price">Ksh 4000</p>
-            <p class="rating">★★★★☆</p>
+        <div class="product-card">
+            <a href="#shoe2">
+                <img src="assets/images/menshoes.jpg">
+                <h3>Mens Shoes</h3>
+                <p class="price">Ksh 4000</p>
+                <p class="rating">★★★★☆</p>
+            </a>
             <button>Add to Cart</button>
         </div>
-        <div class="product-card shoes">
-            <img src="assets/images/ladieshoes.jpg" alt="Mens Shoes">
-            <h3>ladies Shoes</h3>
-            <p class="price">Ksh 2000</p>
-            <p class="rating">★★★★☆</p>
+
+        <div class="product-card">
+            <a href="#shoe3">
+                <img src="assets/images/ladieshoes.jpg">
+                <h3>Ladies Shoes</h3>
+            </a>
+                <p class="price">Ksh 2000</p>
+                <p class="rating">★★★★☆</p>
+            
             <button>Add to Cart</button>
         </div>
+
     </div>
 </section>
 
@@ -110,27 +130,40 @@
     <h2>Dresses</h2>
 
     <div class="product-grid">
-        <div class="product-card dresses">
-            <img src="assets/images/dresses.jpg" alt="Dress">
-            <h3>Elan Dress</h3>
-            <p class="price">Ksh 2500</p>
-            <p class="rating">★★★★★</p>
+
+        <div class="product-card">
+            <a href="#dress1">
+                <img src="assets/images/dresses.jpg">
+                <h3>Elan Dress</h3>
+            </a>
+                <p class="price">Ksh 2500</p>
+                <p class="rating">★★★★★</p>
+            
             <button>Add to Cart</button>
         </div>
-        <div class="product-card dresses">
-            <img src="assets/images/dress2.jpg" alt="Dress">
-            <h3>Elan Dress</h3>
-            <p class="price">Ksh 2500</p>
-            <p class="rating">★★★★★</p>
+
+        <div class="product-card">
+            <a href="#dress2">
+                <img src="assets/images/dress2.jpg">
+                <h3>Summer Dress</h3>
+            </a>
+                <p class="price">Ksh 2800</p>
+                <p class="rating">★★★★★</p>
+           
             <button>Add to Cart</button>
         </div>
-        <div class="product-card dresses">
-            <img src="assets/images/dress3.jpg" alt="Dress">
-            <h3>Elan Dress</h3>
-            <p class="price">Ksh 2500</p>
-            <p class="rating">★★★★★</p>
+
+        <div class="product-card">
+            <a href="#dress3">
+                <img src="assets/images/dress3.jpg">
+                <h3>Evening Dress</h3>
+            </a>
+                <p class="price">Ksh 3200</p>
+                <p class="rating">★★★★★</p>
+  
             <button>Add to Cart</button>
         </div>
+
     </div>
 </section>
 
@@ -139,32 +172,81 @@
 
     <div class="product-grid">
 
-        <div class="product-card jeans">
-            <img src="assets/images/jeans.jpg" alt="Jeans">
-            <h3>Mens Jeans</h3>
-            <p class="price">Ksh 2000</p>
-            <p class="rating">★★★★★</p>
+        <div class="product-card">
+            <a href="#jeans1">
+                <img src="assets/images/jeans.jpg">
+                <h3>Mens Jeans</h3>
+            </a>
+                <p class="price">Ksh 2000</p>
+                <p class="rating">★★★★★</p>
+            
             <button>Add to Cart</button>
         </div>
 
-        <div class="product-card jeans">
-            <img src="assets/images/ladiesjeans.jpg" alt="Jeans">
-            <h3>Ladies Jeans</h3>
-            <p class="price">Ksh 2500</p>
-            <p class="rating">★★★★☆</p>
+        <div class="product-card">
+            <a href="#jeans2">
+                <img src="assets/images/ladiesjeans.jpg">
+                <h3>Ladies Jeans</h3>
+            </a>
+                <p class="price">Ksh 2500</p>
+                <p class="rating">★★★★☆</p>
+      
             <button>Add to Cart</button>
         </div>
 
-        <div class="product-card jeans">
-            <img src="assets/images/jeans2.jpg" alt="Jeans">
-            <h3>Unisex Jeans</h3>
-            <p class="price">Ksh 2500</p>
-            <p class="rating">★★★★☆</p>
+        <div class="product-card">
+            <a href="#jeans3">
+                <img src="assets/images/jeans2.jpg">
+                <h3>Unisex Jeans</h3>
+            </a>
+                <p class="price">Ksh 2500</p>
+                <p class="rating">★★★★☆</p>
+            
             <button>Add to Cart</button>
         </div>
 
     </div>
 </section>
+
+<div id="bag1" class="modal">
+    <div class="modal-content">
+        <a href="#" class="close">&times;</a>
+        <img src="assets/images/bags.jpg">
+        <h2>Elan Handbag</h2>
+        <p>Ksh 1500</p>
+        <p>★★★★★</p>
+    </div>
+</div>
+
+<div id="shoe1" class="modal">
+    <div class="modal-content">
+        <a href="#" class="close">&times;</a>
+        <img src="assets/images/sneakers.jpg">
+        <h2>Sneakers</h2>
+        <p>Ksh 3000</p>
+        <p>★★★★★</p>
+    </div>
+</div>
+
+<div id="dress1" class="modal">
+    <div class="modal-content">
+        <a href="#" class="close">&times;</a>
+        <img src="assets/images/dresses.jpg">
+        <h2>Elan Dress</h2>
+        <p>Ksh 2500</p>
+        <p>★★★★★</p>
+    </div>
+</div>
+
+<div id="jeans1" class="modal">
+    <div class="modal-content">
+        <a href="#" class="close">&times;</a>
+        <img src="assets/images/jeans.jpg">
+        <h2>Mens Jeans</h2>
+        <p>Ksh 2000</p>
+        <p>★★★★★</p>
+    </div>
+</div>
 
 </body>
 </html>
