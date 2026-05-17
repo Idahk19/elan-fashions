@@ -3,19 +3,23 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<link rel="stylesheet" href="product.css">
 <title>Elan Fashion Products</title>
 </head>
 
 <body>
 
-
-<nav>
-    <a href="index.html">Home</a> |
-    <a href="products.html">Products</a> |
-    <a href="about.html">About</a> |
-    <a href="contact.html">Contact</a>
-</nav>
-
+   <header>
+        <nav>
+           <ul>
+                <li><i class="fa-solid fa-house"></i><a href="index.html">Home</a></li>
+                <li><i class="fa-solid fa-house"></i><a href="products.html">Products</a></li>
+                <li><i class="fa-solid fa-circle-info"></i><a href="about.html">About </a></li>
+                <li><i class="fa-solid fa-address-book"></i><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+</header>
 
 <section class="filters">
 
@@ -32,51 +36,80 @@
 
 </section>
 
-
-<!-- ALL PRODUCTS -->
-<section id="all">
-    <h2>All Products</h2>
-
-    <p><strong>Luxury Sneakers</strong> - Ksh 3000 ★★★★★</p>
-    <p><strong>Mens Shoes</strong> - Ksh 4000 ★★★★☆</p>
-    <p><strong>Elan Handbag</strong> - Ksh 1500 ★★★★★</p>
-    <p><strong>Elan Dress</strong> - Ksh 2500 ★★★★★</p>
-    <p><strong>Mens Jeans</strong> - Ksh 2000 ★★★★★</p>
-    <p><strong>Ladies Jeans</strong> - Ksh 2500 ★★★★☆</p>
-</section>
-
-
-
 <!-- BAGS -->
 <section id="bags">
     <h2>Bags</h2>
-    <p>Elan Handbag - Ksh 1500 ★★★★★</p>
-</section>
 
-<hr>
+    <div class="product-grid">
+        <div class="product-card bags">
+            <img src="assets/images/bags.jpg" alt="Bag">
+            <h3>Elan Handbag</h3>
+            <p class="price">Ksh 1500</p>
+            <p class="rating">★★★★★</p>
+            <button>Add to Cart</button>
+        </div>
+    </div>
+</section>
 
 <!-- SHOES -->
 <section id="shoes">
     <h2>Shoes</h2>
-    <p>Luxury Sneakers - Ksh 3000 ★★★★★</p>
-    <p>Mens Shoes - Ksh 4000 ★★★★☆</p>
-</section>
 
-<hr>
+    <div class="product-grid">
+        <div class="product-card shoes">
+            <img src="assets/images/sneakers.jpg" alt="Sneakers">
+            <h3>Luxury Sneakers</h3>
+            <p class="price">Ksh 3000</p>
+            <p class="rating">★★★★★</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="product-card shoes">
+            <img src="assets/images/menshoes.jpg" alt="Mens Shoes">
+            <h3>Mens Shoes</h3>
+            <p class="price">Ksh 4000</p>
+            <p class="rating">★★★★☆</p>
+            <button>Add to Cart</button>
+        </div>
+    </div>
+</section>
 
 <!-- DRESSES -->
 <section id="dresses">
     <h2>Dresses</h2>
-    <p>Elan Dress - Ksh 2500 ★★★★★</p>
-</section>
 
-<hr>
+    <div class="product-grid">
+        <div class="product-card dresses">
+            <img src="assets/images/dresses.jpg" alt="Dress">
+            <h3>Elan Dress</h3>
+            <p class="price">Ksh 2500</p>
+            <p class="rating">★★★★★</p>
+            <button>Add to Cart</button>
+        </div>
+    </div>
+</section>
 
 <!-- JEANS -->
 <section id="jeans">
     <h2>Jeans</h2>
-    <p>Mens Jeans - Ksh 2000 ★★★★★</p>
-    <p>Ladies Jeans - Ksh 2500 ★★★★☆</p>
+
+    <div class="product-grid">
+        <div class="product-card jeans">
+            <img src="assets/images/jeans.jpg" alt="Jeans">
+            <h3>Mens Jeans</h3>
+            <p class="price">Ksh 2000</p>
+            <p class="rating">★★★★★</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="product-card jeans">
+            <img src="assets/images/ladiesjeans.jpg" alt="Jeans">
+            <h3>Ladies Jeans</h3>
+            <p class="price">Ksh 2500</p>
+            <p class="rating">★★★★☆</p>
+            <button>Add to Cart</button>
+        </div>
+    </div>
 </section>
 
 </body>

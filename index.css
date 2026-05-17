@@ -15,12 +15,12 @@ header {
   border-radius: 40px;
   
 }
-footer {
-  text-align: center;
-  color: white;
-  padding: 30px;
-  background-color:#000000 ;
-  border-radius: 40px;
+footer{
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 30px;
 }
 nav{
     display:flex;
@@ -43,10 +43,12 @@ nav ul a{
      font-weight: 400;
     
 }
+
 li{
     display:flex;
     gap:5px;
 }
+
 .home{
     min-height: 100vh;
     display: flex;
